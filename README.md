@@ -1,9 +1,9 @@
 # Student-Identity-and-Certificate-Verification
 
-<h2>Paper Title:<h2>
+<h2>Paper Title:</h2>
 Blockchain based Framework for Educational Certificates and Student Identity Verification
 
-<h2>Authors:<h2>
+<h2>Authors:</h2>
 1) Aastha Chowdhary
 2) Shubham Agrawal
 3) Dr. Bhawana Rudra
