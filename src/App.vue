@@ -1,0 +1,73 @@
+<template>
+  <div id="app" style="padding-bottom:50px;">
+    <header>
+      <table>
+        <tr>
+          <td><router-link to="/" style="color: #ADD8E6;">Home Page</router-link></td>
+          <td><router-link to="/issuerPage" style="color: #ADD8E6;">Issuer Page</router-link></td>
+          <td><router-link to="/recipientPage" style="color: #ADD8E6;">Recipient Page</router-link></td>
+          <td><router-link to="/eventsPage" style="color: #ADD8E6;">Verification Page</router-link></td>
+      </tr>
+      </table>
+    </header>
+    <router-view></router-view>
+    <footer></footer>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
+<style>
+table {
+  width: 100%;
+  float: left;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 48px;
+  width: 100%;
+  height: 100%;
+}
+footer {
+  margin-top: 20px;
+  /* background: #42b983; */
+  background: #aaf8e7;
+  background: #2c3e50;
+  color: white;
+  padding:10px;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+  align-content: center;
+}
+button {
+  padding:5px;
+}
+input {
+  padding:5px;
+}
+</style>
